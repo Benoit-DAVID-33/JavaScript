@@ -1,0 +1,167 @@
+.clock {
+    width: 350px;
+	 border-radius: 50%;
+	 background: #fff;
+	 border: 5px solid white;
+	 box-shadow: inset 2px 3px 8px 0 #385ba9;
+	 
+}
+
+.wrap {
+	 position: relative;
+	 width: 350px;
+	 height: 350px;
+}
+
+.minute, .heure {
+	 position: absolute;
+	 height: 100px; width: 6px;
+	 margin: auto;
+	 top: -27%; left: 0;	bottom: 0; right: 0;
+	 transform-origin: bottom center;
+	 transform: rotate(0deg);
+	 box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+     background: black;
+}
+
+.minute {
+	 position: absolute;
+	 height: 130px;
+	 width: 4px;
+	 top: -38%;
+	 left: 0;
+	 box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	 transform: rotate(90deg);
+}
+.seconde {
+	 position: absolute;
+	 height: 90px;
+	 width: 2px;
+	 margin: auto;
+	 top: -26%;
+	 left: 0;
+	 bottom: 0;
+	 right: 0;
+	 border-radius: 4px;
+	 background: #ff4b3e;
+	 transform-origin: bottom center;
+	 transform: rotate(180deg);
+}
+.dot {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 width: 12px;
+	 height: 12px;
+	 border-radius: 50%;
+	 background: white;
+	 border: 2px solid #1b1b1b;
+	 border-radius: 50%;
+	 margin: auto;
+}
+
+/* ------------- texte qui clignote -----------*/
+
+#bl{
+    width: 400px;
+    font-size: 4rem;
+    margin-bottom: 150px;
+    margin: 50px 0;
+}
+
+/* -------------- arc en ciel --------- */
+
+/* (A) WE CAN USE CSS TO ADD TRANSITION EFFECT */
+.anicol { transition: color ease 0.5s; }
+
+#thisOne, #thisToo { 
+    font-size: 4rem; 
+    font-weight: 900;
+}
+
+
+
+/* ----------- barre de progression -------*/
+
+#myProgress {
+  width: 30%;
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid black;
+  margin: 50px 0;
+}
+
+#myBar {
+  /*width: 1%;*/
+  /*height: 30px;*/
+  background-color: red;
+  border-radius: 20px;
+  width: 10%;
+  height: 30px;
+  /*background-color: #04AA6D;*/
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+
+}
+
+
+
+/* -------------- feu tricolor --------*/
+
+
+#feu { 
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border: 5px solid gray;
+}          
+
+#trafficLight { 
+    border: 2px solid black; 
+    padding: 10px; 
+    width: 50px; 
+    /*display: flex;*/
+    /*flex-direction: column-reverse;*/
+    background: black;
+}
+#trafficLight > div {
+    width:50px; 
+    height: 50px; 
+    margin: 5px 0; 
+    opacity: 0.1;
+    border: 1px solid #333; 
+    border-radius: 50%;
+}
+.green { 
+	background-color: green; }
+.yellow { 
+	background-color: yellow; }
+.red { 
+	background-color: red; 
+	
+}
+#trafficLight > div.on { 
+	opacity: 1; 
+	transition: 
+	opacity 200ms linear; }
+
+
+/* ---------- animation ----------- */
+
+
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: #385ba9;
+  border-radius: 0 50% 0 50%;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
