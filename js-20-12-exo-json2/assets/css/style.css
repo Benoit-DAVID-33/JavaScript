@@ -1,0 +1,54 @@
+body{
+    background-color: coral;
+}
+main{
+    text-align: center;
+}
+header > h1{
+    font-size: 1rem;
+}
+#choose{
+    margin: 20px 0;
+    font-size: 1rem;
+}
+#loadUserId{
+    width: 50px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+#choose > button{
+    width: 100px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    background-color: 	palegreen ;
+}
+#choose > button:hover{
+    transform: scale(1.1);
+    background-color: 	springgreen;
+}
+#user{
+    width: 40vw;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: steelblue;
+    opacity: 80%;
+    margin: auto;
+    font-size: 1rem;
+    box-shadow: 16px 14px 9px #393128;
+}
+#userName {
+    font-size: 1rem;
+    background-color: rgb(255, 255, 128);
+    border-radius: 20px;
+    padding: 10px;
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    background-color: white;
+}

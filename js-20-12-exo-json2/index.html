@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Exercice simple asynchrone avec Typicode</h1>
+        </header>
+        <section>
+        	<div id="choose">
+				Charger l'utilisateur n° <input type="number" id="loadUserId" min="1" value="1" /><button onClick="loadUser()">Charger</button>
+			</div>
+
+			<div id="user" style="display:none">
+				<h1><span id="userName"></span></h1>
+				<h2>Pseudo : <span id="userUserName"></span> (id #<span id="userId"></span>)</h2>
+				<p>Email : <span id="userEmail"></span></p>
+				<p>Téléphone : <span id="userPhone"></span></p>
+				<p>Site web : <span id="userWebsite"></span></p>
+				<h3>Adresse :</h3>
+				<ul>
+					<li id="addressStreet"></li>
+					<li id="addressSuite"></li>
+					<li id="addressCity"></li>
+					<li id="addressZipcode"></li>
+					<li>GPS : <span id="addressLat"></span>, <span id="addressLng"></span></li>
+				</ul>
+
+				<h3>Entreprise :</h3>
+				<ul>
+					<li id="companyName"></span>
+					<li id="companyCatchPhrase"></span>
+					<li id="companyBS"></span>
+				</ul>
+			</div>
+        </section>
+    </main>
+	<script type="application/javascript">
+		function loadUser(){
+			
+		}
+
+	</script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
